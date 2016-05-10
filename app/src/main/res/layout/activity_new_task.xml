@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/details"
+        android:text="@string/insert"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
@@ -25,7 +25,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/idLinearLayout"
         android:id="@+id/DescriptionLinearLayout"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,7 +45,8 @@
             android:layout_alignTop="@+id/DescriptionLabel"
             android:layout_toEndOf="@+id/DescriptionLabel"
             android:textSize="20dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.80" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
