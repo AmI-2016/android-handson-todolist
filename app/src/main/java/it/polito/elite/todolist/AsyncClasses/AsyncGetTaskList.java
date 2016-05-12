@@ -31,9 +31,6 @@ import java.net.URL;
 
 import it.polito.elite.todolist.activities.MainActivity;
 
-/**
- * Created by Teo on 10/05/2016.
- */
 public class AsyncGetTaskList extends AsyncTask<String, Integer, String> {
 
     //context and activity of the activity that called the service
